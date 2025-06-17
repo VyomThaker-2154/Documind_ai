@@ -76,9 +76,28 @@ A full-stack application that processes PDF documents, extracts various types of
 
 3. **Frontend Setup**
    ```bash
+   # Navigate to frontend directory
    cd frontend
+
+   # Install dependencies
    npm install
+
+   # Check if all required dependencies are installed
+   npm list next react react-dom typescript
+
+   # Install additional UI dependencies if needed
+   npm install framer-motion lucide-react react-dropzone
+
+   # Verify the frontend configuration
+   npm run lint
    ```
+
+   Note: The frontend includes:
+   - Next.js 14 with TypeScript configuration
+   - TailwindCSS for styling
+   - React 18+ components
+   - File upload handling with react-dropzone
+   - UI animations with framer-motion
 
 4. **Install Tesseract OCR**
    - Windows: Download and install from [Tesseract GitHub](https://github.com/UB-Mannheim/tesseract/wiki)
