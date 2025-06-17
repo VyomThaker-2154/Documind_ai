@@ -1,0 +1,123 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.env
+venv/
+.venv/
+env/
+ENV/
+
+# PDF files (if you don't want to track test PDFs)
+*.pdf
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# NextJS/React
+node_modules/
+.next/
+out/
+.DS_Store
+*.pem
+.env*.local
+.vercel
+*.tsbuildinfo
+next-env.d.ts
+
+# Project specific data and cache
+extracted_data/
+cache/
+vectors/
+.cache/
+vector_cache/
+faiss_index/
+pdf_cache/
+temp_extracts/
+**/extracted_content/
+**/processed_data/
+# Large binary files
+*.faiss
+*.pkl
+*.bin
+*.h5
+*.npy
+*.npz
+
+# Cache directories
+cache/
+vectors/
+.cache/
+
+# Log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local development
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Project specific directories
+backend/cache/
+backend/extracted_data/
+backend/__pycache__/
+backend/*.pyc
+backend/.env
+frontend/.next/
+frontend/node_modules/
+frontend/.env
+frontend/.env.local
+frontend/.env*.local
+__pycache__/
+*.pyc
+
+# Project specific files
+*.pdf
+backend/vector_store/
+backend/faiss_index/
+
+# Test coverage
+coverage/
+.coverage
+htmlcov/
+
+# MyPy cache
+.mypy_cache/
+
+# pytest cache
+.pytest_cache/
+
+# Backup files
+*.bak
+*.swp
+*~

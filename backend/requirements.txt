@@ -1,0 +1,16 @@
+langchain>=0.2.0
+langchain-groq
+langchain-community
+PyPDF2
+sentence-transformers
+faiss-cpu
+pdf2image
+pdfplumber
+pytesseract
+pillow
+python-dotenv
+fastapi
+uvicorn[standard]
+python-multipart
+numpy
+opencv-python
